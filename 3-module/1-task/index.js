@@ -1,3 +1,4 @@
 function namify(users) {
-  // ваш код...
+  let key =  users.map(item => item.name);
+  return key;
 }
