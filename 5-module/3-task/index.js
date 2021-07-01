@@ -31,21 +31,4 @@ function initCarousel() {
     console.log(counter);
   });
 
-
-  // left.onclick = function() {
-  //   // сдвиг влево
-  //   position += width * count;
-  //   // последнее передвижение влево может быть не на 3, а на 2 или 1 элемент
-  //   position = Math.min(position, 0)
-  //   list.style.transform = 'translateX(300px)';
-  // };
-
-  // right.onclick = function() {
-  //   // сдвиг вправо
-  //   position -= width * count;
-  //   // последнее передвижение вправо может быть не на 3, а на 2 или 1 элемент
-  //   position = Math.max(position, -width * (listElems.length - count));
-  //   list.style.transform = 'translateX(-300px)';
-  // };
-
 }
