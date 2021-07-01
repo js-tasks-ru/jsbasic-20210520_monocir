@@ -46,12 +46,12 @@ export default class UserTable {
   	};
 	
   	onClickItem() {
-	this.elem.addEventListener("click", function (e) {
-		if (e.target.nodeName == "BUTTON") {
-			e.target.closest('tr').remove();
-		};
-	  });
-  };
+		this.elem.addEventListener("click", function (e) {
+			if (e.target.nodeName == "BUTTON") {
+				e.target.closest('tr').remove();
+			};
+		  });
+	  };
 
 
 };
